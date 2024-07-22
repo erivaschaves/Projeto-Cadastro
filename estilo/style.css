@@ -7,7 +7,7 @@
     box-sizing: border-box;/*Definindo altura e largura totais do elemento*/
     
 }
-/* Configurações da tag body*/
+/*Configurações da tag body*/
 body{
     display: flex; /*Tornando o container flexivel*/
     flex-direction: column; /*Definindo a direção do itens do container*/
@@ -16,6 +16,48 @@ body{
     height: 100vh; /*Definindo o elemento com 100% de altura*/
     background: #FF6354; /*Definindo cor de fundo*/
     font-family: cursive; /*Definindo a fonte dos elementos*/
-    color: #111;*/* Definindo a cor*/
+    color: #111; /* Definindo a cor*/
+}
+/*Configurações do formulário class cadastro*/
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    width: 80vw;/*Definindo o elemento com 100% da Largura*/
+    max-width: 450px; /*Definindo a largura máxima do elemento*/
+    padding: 30px; /*Definindo distância dos elementos para borda*/
+    border-radius: 10px;/*Arredondando as bordas do elemento*/
+}
+/*Configurações da tag h2 da class cadastro*/
+.cadastro h2 {
+    margin-bottom: 5px;/*Definindo a distância para margin inferior*/
+}
+/*Configurações da class bar de cadastro */
+.cadastro .bar{
+    width: 40px;
+    height: 2px;
+    background: #FF6354;
 
+}
+/*Configurações do label da class cadastro*/
+.cadastro label{
+    margin: 10px 0;
+}
+/*Configurações do input da class cadastro*/
+.cadastro input{
+    padding: 10px;
+    border: none; /*Retirando a borda*/
+    border: 1px solid #FF6354; /*Criando contorno de 1px*/
+	border-radius: 10px;
+}
+/*Configurações do button da class cadastro*/
+.cadastro button{
+    margin: 30px 0 10px; /*Definindo a margem*/
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #FF6354;
+    color: #FFF;
+    cursor: pointer;/*Modifica o cursor do mouse para pointer*/
+    text-transform: uppercase;/*Alterando o texto para Maiusculo*/
 }
