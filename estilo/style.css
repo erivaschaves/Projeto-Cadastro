@@ -4,4 +4,18 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;/*Definindo altura e largura totais do elemento*/
+    
+}
+/* Configurações da tag body*/
+body{
+    display: flex; /*Tornando o container flexivel*/
+    flex-direction: column; /*Definindo a direção do itens do container*/
+    justify-content: center;/*Definindo espaços entre e ao redor dos itens ao centro*/
+    align-items: center; /*Alinhando itens ao centro*/
+    height: 100vh; /*Definindo o elemento com 100% de altura*/
+    background: #FF6354; /*Definindo cor de fundo*/
+    font-family: cursive; /*Definindo a fonte dos elementos*/
+    color: #111;*/* Definindo a cor*/
+
 }
