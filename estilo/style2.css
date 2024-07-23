@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/*Configurações gerais de estilo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*Definindo altura e largura totais do elemento*/
+}
+/*Configurações da tag body*/
+body{
+    font-family: Arial, Helvetica, sans-serif; /*Definindo a fonte dos elementos*/
+}
+
+a{
+    text-decoration: none;/*Definindo a aparência das linhas decorativas do texto*/
+}
+
+/*Configurações gerais da class containeir*/
+.container{
+    display: flex; /*Tornando o container flexivel*/
+    min-height: 100vh; /*Definindo a altura minima do elemento*/
+    align-items: center; /*Alinhando itens ao centro*/
+    justify-content: center; /*Definindo espaços entre e ao redor dos itens ao centro*/
+}
+/*Configurações do container esquerdo*/
+.container .containerLeft{
+    width: 100vw;
+    height: 100vh;
+    background: #4e81c9 ;
+}
+
+/*Configurações do container direito*/
+.container .containerRight{
+    position: absolute; /*posicionando o elemento em relação ao ancestral ou corpo da página*/
+    height: 90vh;/*Definindo o elemento com 90% de altura*/
+    width: 90vw;/*Definindo o elemento com 90% de largura*/
+    background: #FFF;
+    display: flex;
+    flex-direction: column; /*Definindo a direção do itens do container*/
+    align-items: center;
+    justify-content: center;
+    padding: 2rem; /*Definindo distância dos elementos para borda*/
+    border-radius: 16px; /*Arredondando as bordas do elemento*/
+}
+
+/*Configurações da tag h1 do container direito*/
+.container .containerRight h1 {
+    margin-bottom: 2rem;/*Definindo distancia do h1 para margin abaixo*/
+}
+
+/*Configurações da tag input do container direito*/
+.container .containerRight form label input {
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 5px;/*Definindo distancia do h1 para margin acima*/
+    padding: 0.75rem;
+    outline: 0;/*Definindo o contorno do elemento*/
+    border: 1px solid #CCC;
+    border-radius: 6px;
+}
+
+/*Configurações da tag p do formulario no container direito*/
+.container .containerRight form p {
+    text-align: center;/*Alinhando texto ao centro*/
+    margin: 1rem 0;/*Definindo distancia do p para margin*/
+    font-size: 14px; /*Definndo tamanho da fonte*/
+}
+/*Configurações da tag a de p do formulario*/
+.container .containerRight form p a{
+    color: #4e81c9;
+}
+/*Configurações do botão fazer login*/
+.container .containerRight form #fazerLogin{
+    width: 100%;
+    margin-top: 1rem;/*Definindo distancia do botão para margin acima*/
+    padding: 0.75rem;
+    background: #6b9ee5;
+    border: 0;
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: bold; /*Definindo a fonte para negrito*/
+    cursor: pointer; /*Modifica o cursor do mouse para pointer*/
+    transition: all 0.3s ease-in-out; /*Define o tempo de trnsição com cursor*/
+}
+
+/*Configurações ao passar o mouse sobre o botão*/
+.container .containerRight form #fazerLogin:hover {
+    background: #4e81c9;
+}
+/*Configurações apartir de 768px*/
+@media (min-width: 768px) {
+    .container .containerRight {
+        position: static;
+        width: 60vw;
+    }
+}
+
+
+
+
+

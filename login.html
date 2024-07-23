@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <!--Definindo arquivo de estilo da página-->
+    <link rel="stylesheet" href="estilo/style2.css">
+</head>
+<body>
+    <main class="container">
+        <div class="containerLeft"></div>
+
+        <div class="containerRight">
+        <!--Título da página-->
+        <h1>Entrar</h1>
+        <!--Formulário-->
+            <form action="#">
+             <!--Espaço Email tipo email-->
+                <label>
+                    Login
+                    <input type="email" name="email" id="email"     placeholder="seuemail@hotmail.com">
+                </label>
+                <!--Espaço Senha tipo password-->
+                <label>
+                    Senha
+                    <input type="password" name="senha" id="senha"  placeholder="********">
+                </label>
+                <!--Espaço esqueceu a senha-->
+                <p>Esqueceu a senha? <a href="#">Clique aqui!</a></p>
+                <!--Criando o botão fazer login-->
+                <input type="button" value="Fazer login" id="fazerLogin" onclick="fazerLogin()">
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>

@@ -10,7 +10,7 @@
     <form class="cadastro">
         <h2>Cadastrar</h2>
 
-        <div class="bar"></div>
+        <div class="barra"></div>
         <!--Espaço nome tipo texto-->
         <label for="nome">Nome</label>
         <input type="text" name="nome" placeholder="Nome de usuário" id="nome" required>
@@ -21,8 +21,9 @@
         <label for="senha">Senha</label>
         <input type="password" name="senha" placeholder="Senha" id="senha" required>
         <!--Botão Cadastrar-->
-        <button>Cadastrar</button>
+        <input type="button" value="Cadastrar" id="botao" onclick="cadastrar()">
     </form>
-    
+    <!--Definindo arquivo script da página-->
+    <script src="js/cadastro.js"></script>
 </body>
 </html>

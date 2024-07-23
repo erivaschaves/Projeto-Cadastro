@@ -14,16 +14,16 @@ body{
     justify-content: center;/*Definindo espaços entre e ao redor dos itens ao centro*/
     align-items: center; /*Alinhando itens ao centro*/
     height: 100vh; /*Definindo o elemento com 100% de altura*/
-    background: #FF6354; /*Definindo cor de fundo*/
-    font-family: cursive; /*Definindo a fonte dos elementos*/
-    color: #111; /* Definindo a cor*/
+    background: blue; /*Definindo cor de fundo*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Definindo a fonte dos elementos*/
+    color: black; /* Definindo a cor*/
 }
 /*Configurações do formulário class cadastro*/
 .cadastro{
     display: flex;
     flex-direction: column;
-    background: #FFF;
-    width: 80vw;/*Definindo o elemento com 100% da Largura*/
+    background: white;
+    width: 80vw;/*Definindo o elemento com 80% da Largura*/
     max-width: 450px; /*Definindo a largura máxima do elemento*/
     padding: 30px; /*Definindo distância dos elementos para borda*/
     border-radius: 10px;/*Arredondando as bordas do elemento*/
@@ -33,10 +33,10 @@ body{
     margin-bottom: 5px;/*Definindo a distância para margin inferior*/
 }
 /*Configurações da class bar de cadastro */
-.cadastro .bar{
-    width: 40px;
-    height: 2px;
-    background: #FF6354;
+.cadastro .barra{
+    width: 50px;
+    height: 3px;
+    background: blue;
 
 }
 /*Configurações do label da class cadastro*/
@@ -47,17 +47,17 @@ body{
 .cadastro input{
     padding: 10px;
     border: none; /*Retirando a borda*/
-    border: 1px solid #FF6354; /*Criando contorno de 1px*/
+    border: 1px solid blue; /*Criando contorno de 1px*/
 	border-radius: 10px;
 }
 /*Configurações do button da class cadastro*/
-.cadastro button{
+.cadastro #botao{
     margin: 30px 0 10px; /*Definindo a margem*/
     padding: 10px;
     border: none;
     border-radius: 10px;
-    background: #FF6354;
-    color: #FFF;
+    background: blue;
+    color: white;
     cursor: pointer;/*Modifica o cursor do mouse para pointer*/
     text-transform: uppercase;/*Alterando o texto para Maiusculo*/
 }
