@@ -15,7 +15,7 @@ body{
     align-items: center; /*Alinhando itens ao centro*/
     height: 100vh; /*Definindo o elemento com 100% de altura*/
     background: blue; /*Definindo cor de fundo*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Definindo a fonte dos elementos*/
+    font-family: Arial, Helvetica, sans-serif; /*Definindo a fonte dos elementos*/
     color: black; /* Definindo a cor*/
 }
 /*Configurações do formulário class cadastro*/
@@ -50,6 +50,11 @@ body{
     border: 1px solid blue; /*Criando contorno de 1px*/
 	border-radius: 10px;
 }
+.cadastro p {
+    text-align: center;/*Alinhando texto ao centro*/
+    margin: 0.50rem 0;/*Definindo distancia do p para margin*/
+    font-size: 14px;/*Definndo tamanho da fonte*/
+}
 /*Configurações do button da class cadastro*/
 .cadastro #botao{
     margin: 30px 0 10px; /*Definindo a margem*/
@@ -58,6 +63,7 @@ body{
     border-radius: 10px;
     background: blue;
     color: white;
+    font-weight: bold;/*Definindo a fonte para negrito*/
     cursor: pointer;/*Modifica o cursor do mouse para pointer*/
     text-transform: uppercase;/*Alterando o texto para Maiusculo*/
 }

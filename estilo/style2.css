@@ -25,7 +25,7 @@ a{
 .container .containerLeft{
     width: 100vw;
     height: 100vh;
-    background: #4e81c9 ;
+    background: blue ;
 }
 
 /*Configurações do container direito*/
@@ -66,14 +66,14 @@ a{
 }
 /*Configurações da tag a de p do formulario*/
 .container .containerRight form p a{
-    color: #4e81c9;
+    color: blue;
 }
 /*Configurações do botão fazer login*/
 .container .containerRight form #fazerLogin{
     width: 100%;
     margin-top: 1rem;/*Definindo distancia do botão para margin acima*/
     padding: 0.75rem;
-    background: #6b9ee5;
+    background: blue;
     border: 0;
     border-radius: 10px;
     color: #FFF;
@@ -84,7 +84,7 @@ a{
 
 /*Configurações ao passar o mouse sobre o botão*/
 .container .containerRight form #fazerLogin:hover {
-    background: #4e81c9;
+    background: blue;
 }
 /*Configurações apartir de 768px*/
 @media (min-width: 768px) {
